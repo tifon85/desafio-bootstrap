@@ -1,0 +1,99 @@
+
+
+
+.carousel-caption p{
+    color: black;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.carousel-caption h5{
+    color: black;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.titulo {
+    text-align: center;
+}
+
+.border {
+    border: solid;
+}
+
+.sizeImage {
+    height: 60vh;
+}
+
+.intro {
+    height: 30vh;
+    text-align: center;
+}
+
+.secciones {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(253, 230, 129);
+}
+
+.mobile aside img {
+    display: none;
+}
+
+.contenedorCarousel .carousel img {
+    object-fit: cover;
+    /*object-position: right;*/
+    height: 90vh;
+}
+
+.pie {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.rrss ul li {
+    list-style-type: none;
+}
+
+.rrss ul li svg{
+    display: inline;
+    text-align: center;
+}
+
+.rrss {
+    text-align: center;
+}
+
+.ayuda {
+    align-items: flex-start;
+    text-align: center;
+}
+
+.final {
+    background-color:slategray;
+}
+
+@media (min-width: 800px) {
+    
+    .mobile {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(253, 230, 129);
+    }
+
+    .mobile aside img {
+        display:initial;
+    }
+
+    .pie {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
